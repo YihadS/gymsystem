@@ -1,0 +1,57 @@
+.menu {
+    width: 100%;
+    text-align: center;
+    background: #1A1110;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .menu li {
+    align-items: center;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .menu a{
+    color: white;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .menu li:hover a {
+    color: #05d9e8;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .menu li:hover svg {
+    color: #05d9e8;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .menu svg{
+    font-size: 14px;
+    color: white;
+    padding-right: 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
