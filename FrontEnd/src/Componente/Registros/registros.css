@@ -1,0 +1,126 @@
+.registrosTable{
+padding: 20px;
+width: 100%;
+border-spacing: 0px;
+border-collapse: collapse;
+overflow: scroll; 
+overflow: auto;   
+height: 400px;
+display: block;
+}
+
+.registrosTable th{
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.registrosTable tr{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.registrosTable tbody tr{
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border-bottom: 1px solid #dddddd38;
+  }
+
+.registrosTable tbody tr:hover {
+    background: #05d9e8a2;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    color: white;
+  }
+
+  .registrosTable svg{
+    background: #05d9e8;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    transition: all 0.5s ease-in-out;
+}
+.registrosTable svg:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.registrosTable img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.4);
+}
+.registrosTable thead{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.registrosTable tbody{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+/*Modal Editar Clientes*/
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+.modal{
+    background: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 150px;
+}
+
+.modal input{
+    display: inline-flex;
+    margin: 10px;
+}
+
+.modal button{
+    background: #05d9e8;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    margin-top: 5px;
+}
+
+.close{
+    position: relative;
+    left: 95%;
+    top: 0px;
+    cursor: pointer;
+    font-size: 25px;
+    float: left;
+}
+
+
+/*Barra de búsqueda*/
+.search-container{
+    padding: 15px;
+    padding-left: 80%;
+}
+.search-container svg{
+    color: white;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+.search-container input{
+    box-shadow: 0px 0px 5px rgb(255, 255, 255, 0.4);
+    padding: 5px 5px;
+}
