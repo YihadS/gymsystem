@@ -1,0 +1,68 @@
+/*Dashboard*/
+.header{
+    padding-left: 5%;
+    display: flex;
+    background: black;
+    width: 100%;
+  }
+  .header p{
+    color: white;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 6px;
+  }
+  .header button{
+    background: rgb(0,0,0,0.5);
+    color: white;
+    border: 2px solid #05d9e8;
+    box-shadow: 0px 0px 4px #05d9e8;
+    padding: 5px 5px;
+    transition: all 0.5s ease-in-out;
+  }
+  .header button:hover{
+    background: #05d9e8;
+    color: white;
+    border: 2px solid #05d9e8;
+    box-shadow: 0px 0px 10px #05d9e8;
+    padding: 5px 5px;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  .header .fa-user{
+    color: white;
+  }
+  .header img{
+    padding-right: 60%;
+    width: 160px;
+  }
+  
+.registros{
+  background: black;
+}
+
+.vigente{
+ font-size: 14px;
+ background: #4BB543;
+ color: white;
+ padding: 5px 10px;
+ border-radius: 5px;
+ box-shadow: 0px 0px 5px #4BB543;
+}
+.vencido{
+  font-size: 14px;
+  background: #FF0000;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #FF0000;
+}
+
+  /*Diseño Responsivo*/
+  @media only screen and (max-width: 600px) {
+    .header{
+      padding-left: 2%;
+    }
+    .header img{
+      padding-right: 15%;
+    }
+  }
